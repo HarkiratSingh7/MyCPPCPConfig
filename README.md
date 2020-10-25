@@ -14,6 +14,7 @@ This program uses a source template which will be specified by the user. And it 
 <li>When the program exits and all setting is done successfully, then again run that executable file.</li>
 <li>Type 'help' command and you can see how to create the projects and how to open them after creating.</li>
 </ol>
+Note: If the IDE prompts for selecting some build kits or build systems, make sure that the extensions have been activated successfully.
 
 <b><h2>Steps for Linux</h2></b>
 <ol type="1">
