@@ -4,6 +4,7 @@ This automatically sets and creates one file for pasting Input Cases, and one fi
 <b>It sets up the build systems or build tasks or launch and attaching the executable file while running or debugging.</b><br/>
 This program uses a source template which will be specified by the user. And it will ask for a directory where it will be creating the new folders (for new projects).<br/>
 
+Note: This programs requires 'set' step to be done on first time use only.
 <b><h2>Steps for Windows</h2></b>
 <ol type="1">
 <li>Extract the files to a folder. Install your preferred code editor (This program can work alongwith vscode and sublime). This program works with g++ compiler (c++14)</li>
