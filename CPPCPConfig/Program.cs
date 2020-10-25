@@ -138,6 +138,8 @@ namespace CPPSublimeConfigurator
                     {
                         string fld = Path.Combine(Settings.GetProgramConfiguration().ParentFolder, folderName, folderName + ".sublime-project");
                         Process.Start("subl", "--project \"" + fld + "\"").WaitForExit();
+                        Console.WriteLine("Note please goto tools->build system and select the CPPCPP14BS build system");
+                        Console.WriteLine("Activate the source.cpp. Press Ctrl + B to build and run.");
                     }
                     catch (Exception ex)
                     {
@@ -156,6 +158,8 @@ namespace CPPSublimeConfigurator
                         ss.StartInfo.UseShellExecute = true;
                         ss.Start();
                         ss.WaitForExit();
+
+                        Console.WriteLine("Activate the source.cpp and press F5 to build.");
                     }
                     catch (Exception ex)
                     {
