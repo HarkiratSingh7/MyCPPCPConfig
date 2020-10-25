@@ -14,6 +14,7 @@ Note: This programs requires 'set' step to be done on first time use only.
 <li>Follow the steps</li>
 <li>When the program exits and all setting is done successfully, then again run that executable file.</li>
 <li>Type 'help' command and you can see how to create the projects and how to open them after creating.</li>
+<li>On Windows, the path to IDE program files (executables) and the compiler (include and binaries) files <em>should</em> be added to the path.</li>
 </ol>
 Note: If the IDE prompts for selecting some build kits or build systems, make sure that the extensions have been activated successfully.
 
